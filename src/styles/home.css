@@ -1,0 +1,89 @@
+h2 {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h5 {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.learnMore {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+.nameCards {
+    color: white;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home-container {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#backgroundVideo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.dropdown-menu {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bolder;
+    font-style: normal;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white; /* Cambia el color del texto para que sea visible sobre el video */
+    padding: 20px;
+}
+
+/* Marcos Cards */
+
+.glow-border {
+    border: 2px solid #ffc107; /* Ajusta el color del borde */
+    border-radius: 15px; /* Ajusta el radio del borde */
+    box-shadow: 0 0 10px #ffc107, 0 0 20px #ffc107, 0 0 30px #ffc107, 0 0 40px #ffc107; /* Ajusta el color y la intensidad del resplandor */
+}
+
+.glow-border-planet {
+    border: 2px solid #51a779; /* Ajusta el color del borde */
+    border-radius: 15px; /* Ajusta el radio del borde */
+    box-shadow: 0 0 10px #51a779, 0 0 20px #51a779, 0 0 30px #51a779, 0 0 40px #51a779; /* Ajusta el color y la intensidad del resplandor */
+}
+
+.glow-border-vehicle {
+    border: 2px solid #dfe2da; /* Ajusta el color del borde */
+    border-radius: 15px; /* Ajusta el radio del borde */
+    box-shadow: 0 0 10px #dfe2da, 0 0 20px #dfe2da, 0 0 30px #dfe2da, 0 0 40px #dfe2da; /* Ajusta el color y la intensidad del resplandor */
+}
